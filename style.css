@@ -27,6 +27,16 @@ header nav ul li a{
     color: #fff;
     text-decoration: none;
 }
+
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+header nav ul li a:visited {
+    color: #bbb;
+}
+
 body main {
     width: 70%;
     margin: auto;
@@ -39,11 +49,15 @@ body main article {
 }
 
 #article-left{
-    max-width: 25%;
+    float:left;
+    width:25%;
+    overflow:hidden;
     }
 
 #article-right{
-    max-width: 70%;
+    float:left;
+    width:75%;
+    overflow:hidden;
 }
 
 /* #article-left section form label{
@@ -63,18 +77,22 @@ body main article {
 
 .snippet {
     margin: 10px 0;
+    padding: 10px 0;
+    clear: both;
 }
 
 .snippet img {
-    width: 30%;
+    float:left;
+    width:25%;
+    overflow:hidden;
+    padding:3px;
+    border:1px solid #ccc;
 }
 
 .snippet div {
-    display: inline-block;
-    vertical-align: top;
-    padding: 15px;
-    margin: 10px;
-    width: 60%;
+    float:left;
+    width:65%;
+    padding-left: 10px;
 }
 
 #main-text {
