@@ -28,7 +28,7 @@ header nav ul li a{
     text-decoration: none;
 }
 body main {
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 
@@ -39,12 +39,11 @@ body main article {
 }
 
 #article-left{
-    float:left;
-    width: 300px;
+    max-width: 25%;
     }
 
 #article-right{
-    float: left;
+    max-width: 70%;
 }
 
 /* #article-left section form label{
@@ -83,7 +82,7 @@ body main article {
 }
 
 #comments-section {
-    padding-top: 50px;
+    padding: 50px 0;
 }
 
 #comments-section form label {
@@ -102,6 +101,28 @@ body main article {
     margin : 5px;
     height: 20px;
     float:right;
+}
+
+#user-comments div {
+    border-top: 1px solid #ccc;
+}
+
+#user-comments div img {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+body > footer {
+    background-color: dodgerblue;
+}
+
+body > footer > p {
+    padding: 16px;
+    color: #fff;
+    text-align: center;
 }
 
 h2 {
